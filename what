@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local Scripts = {
-    [93978595733734] = "https://raw.githubusercontent.com/คุณ/Repo/main/Map1.lua",
+    [93978595733734] = "https://raw.githubusercontent.com/kirbyhubX/Kirby-Hub/refs/heads/main/Violence%20District",
 }
 
 local ScriptURL = Scripts[game.PlaceId]
