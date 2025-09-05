@@ -1,0 +1,14 @@
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local Scripts = {
+    [93978595733734] = "https://raw.githubusercontent.com/คุณ/Repo/main/Map1.lua",
+}
+
+local ScriptURL = Scripts[game.PlaceId]
+
+if ScriptURL then
+    loadstring(game:HttpGet(ScriptURL))()
+else
+    LocalPlayer:Kick("This game is not supported. No script available for this map.")
+end
